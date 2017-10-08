@@ -1,30 +1,71 @@
+/* headers */
+
 h1 {
-    font-family: helvetica ;
-    font-size: 30px ;
-    color: black
+    font-family: optima ;
+    font-size: 40px ;
+    font-style: italic ;
+    color: #ffcc99 ;
 }
 
 h2 {
-    font-family: helvetica ;
+    font-family: optima ;
     font-size: 20px ;
     color: darkgray ;
 }
 
 h3 {
-    font-family: helvetica ;
+    font-family: optima ;
     font-size: 16px ;
     color: lightskyblue ;
 }
 
+
+/* body */
+
 p {
-    font-family: helvetica ;
+    font-family: cochin ;
     font-size: 12px ;
-    color: black ;
-    line-height: 18px ;
+    color: #a6a6a6 ;
+    line-height: 16px ;
 }
 
+ul {
+    font-family: cochin ;
+    font-size: 12px ;
+    color: #a6a6a6 ;
+}
+
+ol {
+    font-family: cochin ;
+    font-size: 12px ;
+    color: #a6a6a6 ;
+}
+
+tr {
+    font-family: cochin ;
+    font-size: 12px ;
+    color: #a6a6a6 ;
+}
+
+form {
+    font-family: cochin ;
+    font-size: 12px ;
+    color: #a6a6a6 ;
+}
+
+figcaption {
+    background-color: lightskyblue ;
+    color: white ;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+/* links */
+
 a:link {
-    font-family: helvetica ; 
+    font-family: cochin ; 
     font-size: 12px ;
     color: gray ;
     text-decoration: none ;
@@ -42,31 +83,4 @@ a:visited {
 
 a:active {
     color: black ;
-}
-
-
-.blue {
-    color: lightskyblue ;
-}
-
-ul {
-    font-family: helvetica ;
-    font-size: 12px ;
-    color: black ;
-}
-
-ol {
-    font-family: helvetica ;
-    font-size: 12px ;
-    color: black ;
-}
-
-tr {
-    font-family: helvetica ;
-    font-size: 12px ;
-}
-
-form {
-    font-family: helvetica ;
-    font-size: 12px ;
 }
