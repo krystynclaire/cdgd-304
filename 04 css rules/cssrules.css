@@ -1,52 +1,31 @@
+/* headers */
+
 h1 {
     font-family: helvetica ;
     font-size: 30px ;
-    color: black
+    color: #9999ff ;
 }
 
 h2 {
     font-family: helvetica ;
     font-size: 20px ;
-    color: darkgray ;
+    color: #ccccff ;
 }
 
 h3 {
     font-family: helvetica ;
-    font-size: 16px ;
-    color: lightskyblue ;
+    font-size: 15px ;
+    color:  #ccccff ;
 }
+
+
+/* body */
 
 p {
     font-family: helvetica ;
     font-size: 12px ;
     color: black ;
     line-height: 18px ;
-}
-
-a:link {
-    font-family: helvetica ; 
-    font-size: 12px ;
-    color: gray ;
-    text-decoration: none ;
-}
-
-a:hover {
-    font-weight: bold ;
-    text-decoration: none ;
-    color: lightskyblue ;
-}
-
-a:visited {
-    color: black ;
-}
-
-a:active {
-    color: black ;
-}
-
-
-.blue {
-    color: lightskyblue ;
 }
 
 ul {
@@ -69,4 +48,36 @@ tr {
 form {
     font-family: helvetica ;
     font-size: 12px ;
+}
+
+figcaption {
+    background-color: #ccccff ;
+    color: white ;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+/* links */
+
+a:link {
+    font-family: helvetica ; 
+    font-size: 12px ;
+    color: gray ;
+    text-decoration: none ;
+}
+s
+a:hover {
+    font-weight: bold ;
+    text-decoration: none ;
+    color: #9999ff ;
+}
+
+a:visited {
+    color: darkgray ;
+}
+
+a:active {
+    color: #ccccff ;
 }
