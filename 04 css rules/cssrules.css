@@ -1,47 +1,50 @@
 h1 {
-    font-family: helvetica ;
-    font-size: 30px ;
-    color: black
+    font-family: comic sans ms ;
+    font-size: 50px ;
+    color: hotpink ;
+    background-color: aquamarine ;
 }
 
 h2 {
-    font-family: helvetica ;
-    font-size: 20px ;
-    color: darkgray ;
+    font-family: comic sans ms ;
+    font-size: 30px ;
+    color: orange ;
+    background-color: aquamarine ;
 }
 
 h3 {
-    font-family: helvetica ;
-    font-size: 16px ;
-    color: lightskyblue ;
+    font-family: comic sans ms ;
+    font-size: 26px ;
+    color: chartreuse ;
+    background-color: orange ;
 }
 
 p {
-    font-family: helvetica ;
-    font-size: 12px ;
-    color: black ;
-    line-height: 18px ;
+    font-family: courier ;
+    font-size: 14px ;
+    color: grey ;
+    line-height: 30px ;
 }
 
 a:link {
-    font-family: helvetica ; 
-    font-size: 12px ;
-    color: gray ;
-    text-decoration: none ;
+    font-family: courier ; 
+    font-size: 50px ;
+    color: yellow ;
+    text-decoration: line-through ;
 }
 
 a:hover {
     font-weight: bold ;
-    text-decoration: none ;
-    color: lightskyblue ;
+    text-decoration: underline ;
+    color: blueviolet ;
 }
 
 a:visited {
-    color: black ;
+    color: royalblue ;
 }
 
 a:active {
-    color: black ;
+    color: peachpuff ;
 }
 
 
@@ -50,23 +53,25 @@ a:active {
 }
 
 ul {
-    font-family: helvetica ;
-    font-size: 12px ;
+    font-family: courier ;
+    font-size: 20px ;
     color: black ;
 }
 
 ol {
-    font-family: helvetica ;
-    font-size: 12px ;
+    font-family: courier ;
+    font-size: 14px ;
     color: black ;
 }
 
 tr {
-    font-family: helvetica ;
-    font-size: 12px ;
+    font-family: courier ;
+    font-size: 14px ;
+    background-color: hotpink ;
 }
 
 form {
-    font-family: helvetica ;
-    font-size: 12px ;
+    font-family: courier ;
+    font-size: 14px ;
+    background-color: deepskyblue ;
 }
