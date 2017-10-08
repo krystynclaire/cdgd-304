@@ -1,23 +1,31 @@
+/* headers */
+
 h1 {
-    font-family: comic sans ms ;
-    font-size: 50px ;
+    font-family: chalkboard ;
+    font-size: 40px ;
+    letter-spacing: -5px ;
     color: hotpink ;
     background-color: aquamarine ;
 }
 
 h2 {
-    font-family: comic sans ms ;
+    font-family: chalkboard ;
     font-size: 30px ;
-    color: orange ;
-    background-color: aquamarine ;
+    letter-spacing: -4px ;
+    color: aquamarine ;
+    background-color: chartreuse ;
 }
 
 h3 {
-    font-family: comic sans ms ;
+    font-family: chalkboard ;
     font-size: 26px ;
+    letter-spacing: -3px ;
     color: chartreuse ;
     background-color: orange ;
 }
+
+
+/* body */
 
 p {
     font-family: courier ;
@@ -26,9 +34,42 @@ p {
     line-height: 30px ;
 }
 
+ul {
+    font-family: courier ;
+    font-size: 14px ;
+    color: black ;
+}
+
+ol {
+    font-family: courier ;
+    font-size: 14px ;
+    color: black ;
+}
+
+tr {
+    font-family: courier ;
+    font-size: 14px ;
+}
+
+form {
+    font-family: courier ;
+    font-size: 14px ;
+}
+
+figcaption {
+    background-color: hotpink ;
+    padding-top: 4px ;
+    padding-bottom: 4px ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+
+
+/* links */
+
 a:link {
     font-family: courier ; 
-    font-size: 50px ;
+    font-size: 20px ;
     color: yellow ;
     text-decoration: line-through ;
 }
@@ -44,34 +85,5 @@ a:visited {
 }
 
 a:active {
-    color: peachpuff ;
-}
-
-
-.blue {
-    color: lightskyblue ;
-}
-
-ul {
-    font-family: courier ;
-    font-size: 20px ;
-    color: black ;
-}
-
-ol {
-    font-family: courier ;
-    font-size: 14px ;
-    color: black ;
-}
-
-tr {
-    font-family: courier ;
-    font-size: 14px ;
-    background-color: hotpink ;
-}
-
-form {
-    font-family: courier ;
-    font-size: 14px ;
-    background-color: deepskyblue ;
+    color: yellow ;
 }
