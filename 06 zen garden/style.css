@@ -11,36 +11,138 @@
 /* basic elements */
 
 body {
-    font-family: arimo;
-    font-size: 9px;
-    line-height: 13px;
+    font-family: open sans, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
-    font-family: alpha-echo, sans-serif;
-    font-size: 50px;
+    font-family: comfortaa, sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    letter-spacing: -15px;
+    line-height: 60px;
+    text-transform: lowercase;
+    color: #D55202;
+    padding-left: 140px;
+    margin-top: 30px;
+    width: 200px;
 }
 
 h2 {
-    font-family: alpha-echo, sans-serif;
+    font-family: comfortaa, sans-serif;
     font-size: 30px;
-    margin-top: -25px;
+    font-weight: 300;
+    letter-spacing: -4px;
+    text-transform: lowercase;
+    color: #F4D471;
+    padding-left: 225px;
+    margin-top: -80px;
 }
 
 h3 {
-    font-family: alpha-echo, sans-serif;
-    font-size: 20px;
+    font-family: comfortaa, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -4px;
+    text-transform: lowercase;
+    color: #F4D471;
+    padding-left: 225px;
 }
 
 a:link {
     text-decoration: none;
+    color: #435459;
 }
 
 a:hover {
     text-decoration: none;
-    color: orange;
+    color: #F4D471;
 }
 
 a:visited {
     text-decoration: none;
+    color: #435459;
+}
+
+p {
+    padding-left: 520px;
+    width: 350px;
+}
+
+.summary {
+    font-family: comfortaa, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    padding-top: 30px;
+    color: #D55202;
+}
+
+.preamble {
+    margin-top: 180px;
+}
+
+.main-supporting {
+    margin-top: 280px;
+}
+
+.participation {
+    margin-top: 250px;
+}
+
+.benefits {
+    margin-top: 200px;
+}
+
+.requirements{
+    margin-top: 370px;
+}
+
+h3.select {
+    margin-top: 420px;
+    margin-left: -200px;
+    color: #D55202;
+}
+
+h3.archives {
+    margin-top: 35px;
+    margin-left: -200px;
+    color: #D55202;
+}
+
+h3.resources {
+    margin-top: 132px;
+    margin-left: -200px;
+    color: #D55202;
+}
+
+.design-selection {
+    margin-top: -210px;
+    padding-left: 200px
+}
+
+.design-archives {
+    margin-top: -210px;
+    padding-left: 500px;
+}
+
+.zen-resources {
+    margin-top: -210px;
+    padding-left: 700px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    padding-left: 520px;
+}
+
+.wrapper {
+    padding-bottom: 100px;
 }
